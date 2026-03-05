@@ -1,4 +1,4 @@
-package udemy.devsuperior.matrizes;
+package udemy.devsuperior.arrays.multidimensionais;
 
 import java.util.Scanner;
 
