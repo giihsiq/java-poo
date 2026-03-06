@@ -64,3 +64,4 @@ Durante o curso, foram desenvolvidos sistemas para aplicar os conceitos:
 * **IDE**: Eclipse
 * **Gerenciador de Dependências**: Maven (em módulos avançados)
 * **Versionamento**: Git e GitHub
+
