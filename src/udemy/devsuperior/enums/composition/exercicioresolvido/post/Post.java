@@ -1,4 +1,4 @@
-package udemy.devsuperior.enums.exercicioresolvido.post;
+package udemy.devsuperior.enums.composition.exercicioresolvido.post;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

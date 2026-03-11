@@ -1,4 +1,4 @@
-package udemy.devsuperior.enums;
+package udemy.devsuperior.enums.composition;
 
 public enum OrderStatus {
 	// status/mensagem do pedido

@@ -1,4 +1,4 @@
-package udemy.devsuperior.enums;
+package udemy.devsuperior.enums.composition;
 
 import java.util.Date;
 import java.util.Scanner;

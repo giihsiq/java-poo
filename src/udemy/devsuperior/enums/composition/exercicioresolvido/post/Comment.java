@@ -1,4 +1,4 @@
-package udemy.devsuperior.enums.exercicioresolvido.post;
+package udemy.devsuperior.enums.composition.exercicioresolvido.post;
 
 public class Comment {
 	
