@@ -1,4 +1,4 @@
-package udemy.devsuperior.enums.exercicioresolvido;
+package udemy.devsuperior.enums.exercicioresolvido.worker;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -15,7 +15,6 @@ public class Worker {
 	
 	public Worker() {
 	}
-	
 	
 	public Worker(String name, WorkerLevel worker, Double baseSalary, Department departament) {
 		this.name = name;

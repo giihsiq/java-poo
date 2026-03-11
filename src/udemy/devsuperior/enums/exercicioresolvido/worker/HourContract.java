@@ -1,4 +1,4 @@
-package udemy.devsuperior.enums.exercicioresolvido;
+package udemy.devsuperior.enums.exercicioresolvido.worker;
 
 import java.util.Date;
 

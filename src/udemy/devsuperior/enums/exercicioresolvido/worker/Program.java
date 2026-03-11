@@ -1,7 +1,6 @@
-package udemy.devsuperior.enums.exercicioresolvido;
+package udemy.devsuperior.enums.exercicioresolvido.worker;
 
 import java.util.Date;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
@@ -53,7 +52,6 @@ public class Program {
 		String monthAndYear = scanner.next();
 		int month = Integer.parseInt(monthAndYear.substring(0, 2));
 		int year = Integer.parseInt(monthAndYear.substring(3));
-		
 		
 		System.out.println("Name: " + worker.getName());
 		System.out.println("Department: " + worker.getDepartament().getName());
