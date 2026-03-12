@@ -7,8 +7,9 @@ public class BusinessAccount extends Account {
 	public BusinessAccount() {
 		super(); // É usado para herdar a mesma lógica usada no construtor da classe principal
 	}
-
-	public BusinessAccount(Double loanLimit) {
+	
+	public BusinessAccount(Integer number, String holder, Double balance, Double loanLimit) {
+		super(number, holder, balance);
 		this.loanLimit = loanLimit;
 	}
 
