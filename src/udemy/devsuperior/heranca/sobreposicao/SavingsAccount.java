@@ -1,6 +1,8 @@
 package udemy.devsuperior.heranca.sobreposicao;
 
-public class SavingsAccount extends Account {
+// final = a classe não pode ser herdada
+
+public final class SavingsAccount extends Account {
 
 	private Double interestRate;
 	
