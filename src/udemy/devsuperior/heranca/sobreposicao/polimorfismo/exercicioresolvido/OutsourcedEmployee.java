@@ -1,4 +1,4 @@
-package udemy.devsuperior.heranca.sobreposicao.polimorfismo;
+package udemy.devsuperior.heranca.sobreposicao.polimorfismo.exercicioresolvido;
 
 public class OutsourcedEmployee extends Employee {
 
