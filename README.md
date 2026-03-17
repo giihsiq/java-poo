@@ -1,4 +1,4 @@
-# Java COMPLETO Programação Orientada a Objetos + Projetos
+# Java - Programação Orientada a Objetos + Projetos
 
 ### Instrutor: Dr. Nélio Alves (Udemy)
 
