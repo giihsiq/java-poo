@@ -1,6 +1,6 @@
 package udemy.devsuperior.interfaces.exercicioresolvido;
 
-public class BrazilTaxService {
+public class BrazilTaxService implements TaxService {
 	
 	public Double tax(Double amount) {
 		
