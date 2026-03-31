@@ -1,6 +1,5 @@
 package udemy.devsuperior.interfaces.exercicio;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
@@ -14,7 +13,6 @@ public class ContractProgram {
 		Scanner scanner = new Scanner(System.in);
 
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-		LocalDate dateNow = LocalDate.now();
 		
 		System.out.println("Contract details:");
 		System.out.print("Number: ");
@@ -40,9 +38,8 @@ public class ContractProgram {
 		for (Installment installments : contract.getInstallment()) {
 			System.out.println(installments);
 		}
-		
-		
-		scanner.close();
-	}
 
+		scanner.close();
+	
+	}
 }

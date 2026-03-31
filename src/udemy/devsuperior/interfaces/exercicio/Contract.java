@@ -37,7 +37,5 @@ public class Contract {
 	public LocalDate getDate() {
 		return date;
 	}
-	
-	
 
 }

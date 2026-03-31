@@ -7,7 +7,6 @@ public class ContractService {
 	private OnlinePaymentService onlinePaymentService;
 	
 	public ContractService(OnlinePaymentService onlinePaymentService) {
-		super();
 		this.onlinePaymentService = onlinePaymentService;
 	}
 
