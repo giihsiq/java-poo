@@ -1,4 +1,4 @@
-package udemy.devsuperior.data;
+package udemy.devsuperior.datahora;
 
 import java.time.Duration;
 import java.time.Instant;
