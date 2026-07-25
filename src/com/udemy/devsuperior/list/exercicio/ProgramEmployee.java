@@ -23,10 +23,11 @@ public class ProgramEmployee {
 			System.out.print("Id: ");
 			Integer id = scanner.nextInt();
 
-			/* Método estático hasId fazendo a validação para buscar se o id digitado já existe ou não */
-			while (hasId(register, id)) {
+			// Método estático hasId fazendo a validação para buscar se o id digitado já existe ou não
+			while (findById(register, id) != null) {
 
 				System.out.println("Id already taken, try again: ");
+
 				System.out.print("Id: ");
 				id = scanner.nextInt();
 
@@ -47,22 +48,22 @@ public class ProgramEmployee {
 		System.out.print("Enter the employee id that will have salary increase: ");
 		int id = scanner.nextInt();
 
-//		TODO: Método hasId()
-		Employee employee = register.stream().filter(x -> x.getId() == id).findAny().orElse(null);
+		Employee employeeIncreaseSalary = findById(register, id);
 
-		if (employee != null) {
+			if (employeeIncreaseSalary != null) {
 
-			System.out.print("Enter the percentage: ");
-			double percentage = scanner.nextDouble();
+				System.out.print("Enter the percentage: ");
+				double percentage = scanner.nextDouble();
 
-			employee.increaseSalary(percentage);
+				employeeIncreaseSalary.increaseSalary(percentage);
 
-		} else {
+			} else {
 
-			System.out.println("This id does not exist!");
+				System.out.println("This id does not exist!");
 
-		}
-		
+			}
+
+
 		System.out.println();
 
 		System.out.println("List of employees:");
@@ -74,12 +75,22 @@ public class ProgramEmployee {
 		
 		scanner.close();
 	}
-	
-	public static boolean hasId(List<Employee> register, int id) {
 
-		Employee employee = register.stream().filter(x -> x.getId() == id).findAny().orElse(null);
+//	TODO: mudar o tipo do método, para receber id e comparar na lista?
+	public static Employee findById(List<Employee> register, int id) {
 
-		return employee != null;
+		Employee employee = register.stream()
+				                    .filter(x -> x.getId() == id)
+				                    .findAny()
+				                    .orElse(null);
+
+		if (employee != null) {
+
+			return employee;
+
+		}
+
+		return null;
 
 	}
 
