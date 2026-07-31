@@ -76,7 +76,6 @@ public class ProgramEmployee {
 		scanner.close();
 	}
 
-//	TODO: mudar o tipo do método, para receber id e comparar na lista?
 	public static Employee findById(List<Employee> register, int id) {
 
 		Employee employee = register.stream()
